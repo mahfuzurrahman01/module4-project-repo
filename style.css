@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+}
+body p{
+    color: gray;
+}
+.first-section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.divone{
+    width: 50%;
+    padding-left: 110px;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+.divone h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.divone h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.divone span{
+    color: orange;
+}
+
+.divtwo{
+    width: 50%;
+}
+.divtwo img{
+    width: 85%;
+}
+.divone a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(rgb(251, 224, 21),rgb(222, 75, 48));
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.second-section{
+    display: flex;
+    margin-top: 40px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.divthree{
+    padding-left: 110px;
+    width: 50%;
+}
+.divthree img{
+    width: 85%;
+}
+.divfour{
+    width: 50%;
+    padding-top: 70px;
+    padding-right: 80px;
+    margin-right: 50px;
+}
+.divfour h1{
+    font-size: 50px;
+}
+.divfour h3{
+    color: orange;
+    font-size:25px;
+}
+.divfour a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(rgb(251, 224, 21),rgb(222, 75, 48));
+    padding: 10px 30px;
+    border-radius: 5px;
+    top: 60;
+}
+.third-section .thirdh1{
+    font-size: 45px;
+}
+.divlast{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+    
+}
+.divlast h1{
+font-size: 40px;
+}
+.divlast h3{
+    color: orange;
+}
+.last{
+    box-shadow: 5px 15px 50px gray;
+    padding: 0 15px 90px 35px;
+    width: 50%;
+}
+.divlastone{
+    margin: 0 40px 10px 60px;
+    border-left: 10px solid #FF6347;
+}
+.divlasttwo{
+    margin: 0 60px 10px 40px;
+    border-left: 10px solid #0000FF;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
